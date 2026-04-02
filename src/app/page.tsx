@@ -1,9 +1,11 @@
 import React from 'react'
 
-const page = () => {
+function HomePage() {
   return (
-    <div className='text-white text-3xl text-center py-2'>page</div>
+    <div>
+      <h1 className=' text-white ext-3xl font-bold text-center mt-10'>Welcome to the Home Page</h1>
+    </div>
   )
 }
 
-export default page
+export default HomePage
